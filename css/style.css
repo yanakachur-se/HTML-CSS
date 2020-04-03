@@ -88,14 +88,21 @@ h3 {
 }
 
 /* Content */
-.section ul {
+.cv_section .signature{
+  flex-direction: row;
+} 
+
+.cv_section i {
+  margin-right: 1px;
+}
+.cv_section ul {
   padding-left: 16px;
 }
-.section li {
+.cv_section li {
   list-style-type: square;
 }
 
-.section .number-square {
+.cv_section .number-square {
   box-sizing: border-box;
   display: inline-block;
   width: 24px;
@@ -110,7 +117,7 @@ h3 {
 }
 
 @media(min-width: 550px) {
-  .section .grid {
+  .cv_section .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px
