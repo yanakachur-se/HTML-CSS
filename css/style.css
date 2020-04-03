@@ -100,26 +100,18 @@ h3 {
   list-style-type: square;
 }
 
-.cv_section .number-square {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin-right: 8px;
-  padding: 2px;
-  background-color: black;
-  color: white;
-  font-size: 14px;
-  text-align: right;
-  vertical-align: top;
-}
-
 @media(min-width: 550px) {
   .cv_section .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px
   }
+}
+
+.skills ul {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 36px;
 }
 
 /* Footer */
